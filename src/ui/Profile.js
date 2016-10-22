@@ -9,6 +9,7 @@ export default React.createClass ({
 			Name:'',
 			Email:'',
 			Phone:'',
+			large:'',
 
 		}
 	},
@@ -24,6 +25,7 @@ export default React.createClass ({
 		Name:person.Name,
 		Email:person.Email,
 		Phone:person.Phone,
+		large:person.large,
 
 
 	})
@@ -32,7 +34,11 @@ export default React.createClass ({
 	render:function(){
 		return (
 			<div className="profileDiv">
-				<h3 className="profileTitle"></h3>
+				<h3 className="profileTitle">
+					<div className="profileImageContainer">
+					{this.state.large}
+					</div>
+				</h3>
 				<ul className="profileUl">
 					<li>{this.state.Name}</li>
 					<li>{this.state.Email}</li>

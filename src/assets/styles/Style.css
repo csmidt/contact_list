@@ -7,6 +7,7 @@ html {
 
 .app {
 	width:800px;
+	height: 500px;
 	border: 1px solid black;
 	display: flex;
 
@@ -24,8 +25,9 @@ html {
 
 }
 
-.headerli {
-
+.headerTitles li {
+	
+	margin-right: 230px;
 }
 
 .peepsTitle {
@@ -38,7 +40,12 @@ html {
 
 .peepsList {
 	list-style: none;
+	
+}
 
+.peepsList li {
+	border-bottom: 1px solid #eee;
+	height: 50px;
 }
 
 .profileTitle {
@@ -48,18 +55,22 @@ html {
 	text-align: center;
 }
 
-/*.profileImageContainer {
+.profileImageContainer {
 	width: 40%;
-	float: right;
-	background-color: rgb(167,208,118);	
+	
 }
 
 .profileImageSpot {
 	border-radius: 100%;
 
-}*/
+}
 
 .profileUl {
 	list-style: none;	
 
+}
+
+.profileUl li {
+	border-bottom: 1px solid #eee;
+	height: 50px;
 }

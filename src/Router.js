@@ -14,7 +14,8 @@ export default React.createClass({
     return (
       <Router history={hashHistory}>
         <Route component={Layout}>
-          <Route path="/" component={Peeps} />
+          <Route path="/" component={Header}/>
+          <Route path="/Peeps" component={Peeps} />
           <Route path="/Profile/:ID" component={Profile} />
         </Route>
       </Router>
