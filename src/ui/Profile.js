@@ -16,18 +16,17 @@ export default React.createClass ({
 	componentWillMount: function () {
 	var id = this.props.params.ID;
 
-	var person = Peeps.people.filter(function(people){
-		return people.ID == ID
+	var person = people.people.filter(function(contactFromArray){
+		return contactFromArray.ID == id
 	})[0]
 
 	this.setState({
-		Name:people.Name,
-		Email:people.Email,
-		Phone:people.Phone,
+		Name:person.Name,
+		Email:person.Email,
+		Phone:person.Phone,
 
 
 	})
-
 	},
 
 	render:function(){
