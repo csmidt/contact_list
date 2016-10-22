@@ -1,0 +1,50 @@
+{
+	"people": [
+		{
+			"Name":"Carrie",
+	 		"ID":1, 
+	 		"Email":"lawlcarrie@yahoo.com",
+	 		"Phone":"317-777-1977",
+	 		"large":"https://randomuser.me/api/portraits/women/86.jpg",
+     	"thumbnail":"https://randomuser.me/api/portraits/thumb/women/86.jpg"
+    },
+		{
+			"Name":"Dustin", 
+			"ID":2, 
+			"Email":"Dustin@yahoo.com", 
+			"Phone":"702-777-1212", 
+	 		"large": "https://randomuser.me/api/portraits/men/12.jpg",
+     	"thumbnail": "https://randomuser.me/api/portraits/thumb/men/12.jpg"
+ 	},
+
+	{	
+		"Name":"Ryan", 
+	 	"ID":3, 
+	 	"Email":
+	 	"Ryan@yahoo.com", 
+	 	"Phone":"702-777-1313", 
+	  "large":"https://randomuser.me/api/portraits/men/54.jpg",
+    "thumbnail":"https://randomuser.me/api/portraits/thumb/men/54.jpg"
+  },
+
+	{
+		"Name":"Tim", 
+		"ID":4, 
+		"Email":"Tim@yahoo.com", 
+		"Phone":"702-777-1414",
+		"large":"https://randomuser.me/api/portraits/men/62.jpg",
+    "thumbnail":"https://randomuser.me/api/portraits/thumb/men/62.jpg"
+	},
+
+	{
+		"Name":"Jason", 
+	  "ID":5, 
+	  "Email":"Jason@yahoo.com",
+	  "Phone":"702-777-1515",
+	  "large":"https://randomuser.me/api/portraits/men/91.jpg",
+    "thumbnail":"https://randomuser.me/api/portraits/thumb/men/91.jpg"
+  }
+]
+}
+
+
