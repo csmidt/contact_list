@@ -7,6 +7,8 @@ html {
 
 .app {
 	width:800px;
+	border: 1px solid black;
+	display: flex;
 
 }
 
@@ -27,7 +29,7 @@ html {
 }
 
 .peepsTitle {
-	width:40%;
+	width:350Px;
 	height:50px;
 	background-color: rgb(129,188,57);
 	text-align: center;
@@ -36,9 +38,17 @@ html {
 
 .peepsList {
 	list-style: none;
-	
+
 }
-.profileImageContainer {
+
+.profileTitle {
+	width:350px;
+	height:50px;
+	background-color: rgb(129,188,57);
+	text-align: center;
+}
+
+/*.profileImageContainer {
 	width: 40%;
 	float: right;
 	background-color: rgb(167,208,118);	
@@ -47,10 +57,9 @@ html {
 .profileImageSpot {
 	border-radius: 100%;
 
-}
+}*/
 
 .profileUl {
-	list-style: none;
-	display:block;
+	list-style: none;	
 
 }

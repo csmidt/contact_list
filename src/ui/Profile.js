@@ -5,6 +5,7 @@ import people from 'data/Peeps.json'
 export default React.createClass ({
 	getInitialState: function () {
 		return {
+
 			Name:'',
 			Email:'',
 			Phone:'',
@@ -15,7 +16,7 @@ export default React.createClass ({
 	componentWillMount: function () {
 	var id = this.props.params.ID;
 
-	var person = Peeps.people.filter(function(person){
+	var person = Peeps.people.filter(function(people){
 		return people.ID == ID
 	})[0]
 
@@ -23,7 +24,7 @@ export default React.createClass ({
 		Name:people.Name,
 		Email:people.Email,
 		Phone:people.Phone,
-		
+
 
 	})
 
@@ -32,11 +33,13 @@ export default React.createClass ({
 	render:function(){
 		return (
 			<div className="profileDiv">
+				<h3 className="profileTitle"></h3>
 				<ul className="profileUl">
 					<li>{this.state.Name}</li>
 					<li>{this.state.Email}</li>
 					<li>{this.state.Phone}</li>
 				</ul>
+
 			</div>
 
 		)
