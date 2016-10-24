@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
-import people from 'data/Peeps.json'
+import people from 'data/Peeps.json';
+import Icons from 'font-awesome/css/font-awesome.css'
 
 export default React.createClass ({
 	getInitialState: function () {
@@ -35,15 +36,13 @@ export default React.createClass ({
 		return (
 			<div className="profileDiv">
 				<h3 className="profileTitle">
-					<div className="profileImageContainer">
-					{this.state.large}
-					</div>
+					<img className ="profileImg" src={this.state.large} />	
 				</h3>
-				<ul className="profileUl">
-					<li>{this.state.Name}</li>
-					<li>{this.state.Email}</li>
-					<li>{this.state.Phone}</li>
-				</ul>
+				<div className="profileUl">
+					<p className="profileInfo"><i className="fa fa-user" aria-hidden="true"></i>{this.state.Name}</p>
+					<p className="profileInfo"><i className="fa fa-envelope" aria-hidden="true"></i>{this.state.Email}</p>
+					<p className="profileInfo"><i className="fa fa-mobile" aria-hidden="true"></i>{this.state.Phone}</p>
+				</div>
 
 			</div>
 

@@ -14,8 +14,9 @@ html {
 }
 
 .header {
-	width:800px;
+	width:790px;
 	height: 50px;
+	background-color: #eee;
 
 }
 
@@ -23,54 +24,64 @@ html {
 	list-style: none;
 	display: flex;
 
+
 }
 
 .headerTitles li {
-	
+	margin-top: 20px;
 	margin-right: 230px;
+}
+.myPeeps {
+	width:350px;
 }
 
 .peepsTitle {
 	width:350Px;
 	height:50px;
 	background-color: rgb(129,188,57);
-	text-align: center;
-
+	color: #fff;
+	padding:13px;
 }
 
-.peepsList {
-	list-style: none;
-	
+
+.peepsLink {
+	text-decoration: none;
+	color:black;
+	border-bottom:1px solid #eee;
+	width:350px;
 }
 
-.peepsList li {
-	border-bottom: 1px solid #eee;
-	height: 50px;
+
+.listImg {
+	border-radius: 100%;
+	margin-right: 30px;
 }
 
 .profileTitle {
 	width:350px;
-	height:50px;
+	height:150px;
 	background-color: rgb(129,188,57);
 	text-align: center;
 }
 
-.profileImageContainer {
-	width: 40%;
-	
-}
-
-.profileImageSpot {
+.profileImg {
 	border-radius: 100%;
+	margin-top: 10px;
+	margin-left: -10px;
 
 }
 
 .profileUl {
 	list-style: none;	
-
 }
 
-.profileUl li {
+.profileInfo {
 	border-bottom: 1px solid #eee;
 	height: 50px;
+}
+
+.fa {
+	font-size: 25px;
+	margin-right: 20px;
+	padding:5px;
 }

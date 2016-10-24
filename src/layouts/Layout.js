@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 
 import 'assets/styles/Style.css'
+import Header from 'ui/Header'
 
 
 
@@ -10,9 +11,8 @@ export default React.createClass({
   render: function() {
     return (
       <div className="app">
-      	<nav>
-      		
-      	</nav>
+      
+      	
         <main>
     		<Link to="/">Home</Link>
   			<Link to="Peeps">Peeps</Link>
