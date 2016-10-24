@@ -11,12 +11,7 @@ export default React.createClass({
   render: function() {
     return (
       <div className="app">
-      
-      	
         <main>
-    		<Link to="/">Home</Link>
-  			<Link to="Peeps">Peeps</Link>
-  			<Link to="profile/1">Users</Link>
           {this.props.children}  
         </main>
       </div>
