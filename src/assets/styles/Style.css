@@ -33,6 +33,9 @@ html {
 }
 .myPeeps {
 	width:350px;
+	border-bottom: 1px solid #eee;
+	padding:10px;
+	padding-top: 10px;
 }
 
 .peepsTitle {
@@ -47,8 +50,7 @@ html {
 .peepsLink {
 	text-decoration: none;
 	color:black;
-	border-bottom:1px solid #eee;
-	width:350px;
+	
 }
 
 
