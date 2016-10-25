@@ -11,15 +11,13 @@ html {
 	width:790px;
 	height: 50px;
 	background-color: #eee;
-
 }
 
 .headerTitles {
 	list-style: none;
 	display: flex;
-
-
 }
+
 
 .headerTitles li {
 	margin-top: 20px;
@@ -53,6 +51,12 @@ html {
 	margin-right: 30px;
 }
 
+.delete {
+	float:right;
+	padding-top: 5px;
+	margin-top: 30px;
+}
+
 .profileTitle {
 	width:350px;
 	height:150px;
@@ -80,4 +84,25 @@ html {
 	font-size: 25px;
 	margin-right: 20px;
 	padding:5px;
+}
+.usericon > i {
+	padding-top: 25px;
+	font-size: 100px;
+	color: #eee;
+}
+.form {
+	display: flex;
+	flex-direction: column;
+	width:350px;
+}
+
+.form > input {
+	height:40px;
+	margin-bottom: 5px;
+}
+
+.form > button {
+	width: 100px;
+	height: 50px;
+	margin-left: 125px;
 }

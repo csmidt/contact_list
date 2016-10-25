@@ -1,7 +1,7 @@
 import React from 'react';
-import { render } from 'react-dom';
+import ReactDOM from 'react-dom';
 
-import Router from 'Router'
+import App from 'Router';
 import Header from 'ui/Header'
 
 
@@ -12,4 +12,4 @@ import Header from 'ui/Header'
 
 
 
-render(<Router />, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById('app'));

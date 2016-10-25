@@ -1,53 +1,70 @@
 import React from 'react';
-import { Link } from 'react-router';
-import people from 'data/Peeps.json';
-import Icons from 'font-awesome/css/font-awesome.css'
+import { Link, hashHistory } from 'react-router';
+import { getContact } from 'api/contacts'
 
-export default React.createClass ({
+import 'font-awesome/css/font-awesome.css'
+
+
+const ContactViewContainer = React.createClass ({
 	getInitialState: function () {
 		return {
-
-			Name:'',
+			Fname:'',
+			Lname:'',
 			Email:'',
 			Phone:'',
 			large:'',
-
+			city:''
 		}
 	},
 
 	componentWillMount: function () {
-	var id = this.props.params.ID;
+		var id = this.props.params.id
 
-	var person = people.people.filter(function(contactFromArray){
-		return contactFromArray.ID == id
-	})[0]
-
-	this.setState({
-		Name:person.Name,
-		Email:person.Email,
-		Phone:person.Phone,
-		large:person.large,
-
-
-	})
+		getContact(id).then(resp => {
+			this.setState({
+			fname:resp.data.name.first,
+			lname:resp.data.name.last,
+			email:resp.data.email,
+			phone:resp.data.phone,
+			large:resp.data.picture.large,
+			city:resp.data.location.city,
+			state:resp.data.location.state
+			})
+		})
 	},
-
-	render:function(){
+	render: function () {
 		return (
-			<div className="profileDiv">
-				<h3 className="profileTitle">
-					<img className ="profileImg" src={this.state.large} />	
-				</h3>
-				<div className="profileUl">
-					<p className="profileInfo"><i className="fa fa-user" aria-hidden="true"></i>{this.state.Name}</p>
-					<p className="profileInfo"><i className="fa fa-envelope" aria-hidden="true"></i>{this.state.Email}</p>
-					<p className="profileInfo"><i className="fa fa-mobile" aria-hidden="true"></i>{this.state.Phone}</p>
+			<ContactView contact={this.state} />
+		)
+
+	}
+})
+
+		const ContactView = React.createClass ({
+		goBack: function (){
+			hashHistory.goBack()
+		},
+
+		render: function() {
+			return (
+				<div className="profileDiv">
+					<button onClick={this.goBack}>Go Back</button><br />
+					<h3 className="profileTitle">
+						<img className ="profileImg" src={this.props.contact.large} />	
+					</h3>
+					<div className="profileUl">
+						<p className="profileInfo"><i className="fa fa-user" aria-hidden="true"></i>{this.props.contact.fname}&nbsp;{this.props.contact.lname}</p>
+						<p className="profileInfo"><i className="fa fa-envelope" aria-hidden="true"></i>{this.props.contact.email}</p>
+						<p className="profileInfo"><i className="fa fa-mobile" aria-hidden="true"></i>{this.props.contact.phone}</p>
+						<p className="ProfileInfo"><i className="fa fa-map-marker" aria-hidden="true"></i>{this.props.contact.city}, {this.props.contact.state}</p>
+
+					</div>
+
 				</div>
 
-			</div>
+			)
+		}
+	})
 
-		)
-	}
-});
-
+export default ContactViewContainer
 
