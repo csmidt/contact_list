@@ -18,10 +18,9 @@ html {
 	display: flex;
 }
 
-
 .headerTitles li {
 	margin-top: 20px;
-	margin-right: 230px;
+	margin-right: 350px;
 }
 .myPeeps {
 	width:350px;

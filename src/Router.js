@@ -15,7 +15,7 @@ export default React.createClass({
     return (
       <Router history={hashHistory}>
         <Route component={Layout}>
-          <Route path="/" component={Peeps} />
+          <Route path="/" component={ Peeps } />
           <Route path="/form" component={Create_user} />
           <Route path="/Profile/:id" component={Profile} />
         </Route>

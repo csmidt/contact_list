@@ -67,112 +67,128 @@
         "thumbnail": "https://randomuser.me/api/portraits/thumb/men/91.jpg"
       },
       "nat": "CA"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "samuel",
+        "last": "salmi"
       },
-       {  
-    "gender":"male",
-    "name":{  
-      "title":"mr",
-      "first":"samuel",
-      "last":"salmi"
+      "location": {
+        "street": "1636 verkatehtaankatu",
+        "city": "punkaharju",
+        "state": "åland",
+        "postcode": 71787
+      },
+      "email": "samuel.salmi@example.com",
+      "login": {
+        "username": "smallfish636",
+        "password": "toast",
+        "salt": "dgZpsNtS",
+        "md5": "aed9c6b12c58be410bdaf83dfafec05f",
+        "sha1": "3d4b707f0b9f4142775e868518bd0fac1a56f970",
+        "sha256": "2511656b0dcf55ede7d67f26396052f68320c5b3478c33cd7ea597004e9f3798"
+      },
+      "registered": 1307725614,
+      "dob": 1085601578,
+      "phone": "04-023-188",
+      "cell": "042-247-23-92",
+      "id": {
+        "name": "HETU",
+        "value": "65044433-W"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/48.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/48.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/48.jpg"
+      },
+      "nat": "FI"
     },
-    "location":{  
-      "street":"1636 verkatehtaankatu",
-      "city":"punkaharju",
-      "state":"åland",
-      "postcode":71787
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "samuel",
+        "last": "thomas"
+      },
+      "location": {
+        "street": "2987 russell street",
+        "city": "christchurch",
+        "state": "wellington",
+        "postcode": 42678
+      },
+      "email": "samuel.thomas@example.com",
+      "login": {
+        "username": "ticklishpeacock274",
+        "password": "eugene",
+        "salt": "KV5eWbeE",
+        "md5": "acfe474f51c2750317131f94343d9749",
+        "sha1": "fa6112b79f0c66171b932ce0ca783692ef894891",
+        "sha256": "1b81d261ed5ff5a6625a698c6da689e24c8d1db36a509e8663ef43e6cf0b9896"
+      },
+      "registered": 1038565180,
+      "dob": 980011188,
+      "phone": "(090)-742-0442",
+      "cell": "(682)-496-3801",
+      "id": 19,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/82.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/82.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/82.jpg"
+      },
+      "nat": "NZ"
     },
-    "email":"samuel.salmi@example.com",
-    "login":{  
-      "username":"smallfish636",
-      "password":"toast",
-      "salt":"dgZpsNtS",
-      "md5":"aed9c6b12c58be410bdaf83dfafec05f",
-      "sha1":"3d4b707f0b9f4142775e868518bd0fac1a56f970",
-      "sha256":"2511656b0dcf55ede7d67f26396052f68320c5b3478c33cd7ea597004e9f3798"
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "مهدي",
+        "last": "مرادی"
+      },
+      "location": {
+        "street": "1442 نبرد",
+        "city": "کرمانشاه",
+        "state": "قم",
+        "postcode": 11114
+      },
+      "email": "مهدي.مرادی@example.com",
+      "login": {
+        "username": "reddog979",
+        "password": "goliath",
+        "salt": "KUtnJN7e",
+        "md5": "efde5f6865ee048408f239588e22b359",
+        "sha1": "3627acd729fbdae6946b880d65158cd116fe28d1",
+        "sha256": "dcb96d813458f49a04b8524c2ea8d6fc5c86a9b36e97e5f23c594922e0380137"
+      },
+      "registered": 1394776140,
+      "dob": 925916120,
+      "phone": "054-29650054",
+      "cell": "0913-528-9959",
+      "id": 20,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/71.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/71.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/71.jpg"
+      },
+      "nat": "IR"
     },
-    "registered":1307725614,
-    "dob":1085601578,
-    "phone":"04-023-188",
-    "cell":"042-247-23-92",
-    "id":{  
-      "name":"HETU",
-      "value":"65044433-W"
-    },
-    "picture":{  
-      "large":"https://randomuser.me/api/portraits/men/48.jpg",
-      "medium":"https://randomuser.me/api/portraits/med/men/48.jpg",
-      "thumbnail":"https://randomuser.me/api/portraits/thumb/men/48.jpg"
-    },
-    "nat":"FI"
-  },
-  {  
-    "gender":"male",
-    "name":{  
-      "title":"mr",
-      "first":"samuel",
-      "last":"thomas"
-    },
-    "location":{  
-      "street":"2987 russell street",
-      "city":"christchurch",
-      "state":"wellington",
-      "postcode":42678
-    },
-    "email":"samuel.thomas@example.com",
-    "login":{  
-      "username":"ticklishpeacock274",
-      "password":"eugene",
-      "salt":"KV5eWbeE",
-      "md5":"acfe474f51c2750317131f94343d9749",
-      "sha1":"fa6112b79f0c66171b932ce0ca783692ef894891",
-      "sha256":"1b81d261ed5ff5a6625a698c6da689e24c8d1db36a509e8663ef43e6cf0b9896"
-    },
-    "registered":1038565180,
-    "dob":980011188,
-    "phone":"(090)-742-0442",
-    "cell":"(682)-496-3801",
-    "id":19,
-    "picture":{  
-      "large":"https://randomuser.me/api/portraits/men/82.jpg",
-      "medium":"https://randomuser.me/api/portraits/med/men/82.jpg",
-      "thumbnail":"https://randomuser.me/api/portraits/thumb/men/82.jpg"
-    },
-    "nat":"NZ"
-  },
-  {  
-    "gender":"male",
-    "name":{  
-      "title":"mr",
-      "first":"مهدي",
-      "last":"مرادی"
-    },
-    "location":{  
-      "street":"1442 نبرد",
-      "city":"کرمانشاه",
-      "state":"قم",
-      "postcode":11114
-    },
-    "email":"مهدي.مرادی@example.com",
-    "login":{  
-      "username":"reddog979",
-      "password":"goliath",
-      "salt":"KUtnJN7e",
-      "md5":"efde5f6865ee048408f239588e22b359",
-      "sha1":"3627acd729fbdae6946b880d65158cd116fe28d1",
-      "sha256":"dcb96d813458f49a04b8524c2ea8d6fc5c86a9b36e97e5f23c594922e0380137"
-    },
-    "registered":1394776140,
-    "dob":925916120,
-    "phone":"054-29650054",
-    "cell":"0913-528-9959",
-    "id":20,
-    "picture":{  
-      "large":"https://randomuser.me/api/portraits/men/71.jpg",
-      "medium":"https://randomuser.me/api/portraits/med/men/71.jpg",
-      "thumbnail":"https://randomuser.me/api/portraits/thumb/men/71.jpg"
-    },
-    "nat":"IR"
-  }
-
+    {
+      "name": {
+        "fname": "R",
+        "lname": "R"
+      },
+      "email": "lawlcarrie@yahoo.com",
+      "phone": 3177771977,
+      "location": {
+        "city": "Las Vegas",
+        "state": "Nevada"
+      },
+      "picture": {
+        "large": "",
+        "thumbnail": "http://www.howtogetthewomanofyourdreams.com/wp-content/uploads/2013/03/womanslide21.png"
+      },
+      "id": 21
+    }
   ]
 }

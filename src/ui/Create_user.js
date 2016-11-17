@@ -16,7 +16,9 @@ const CreateContact = React.createClass ({
 			email:"",
 			phone:"",
 			city:"",
-			state:""
+			state:"",
+			large:"",
+			thumbnail:""
 		}
 	}, 
 
@@ -44,6 +46,10 @@ const CreateContact = React.createClass ({
 			location: {
 				city: this.state.city,
 				state: this.state.state
+			}, 
+			picture: {
+				large: this.state.large,
+				thumbnail: this.state.thumbnail
 			}
 		}
 
@@ -72,6 +78,8 @@ const CreateContact = React.createClass ({
 					<input id="phone" onChange={this.update} type="text"  placeholder="Phone"/>
 					<input id="city" onChange={this.update} type="text" placeholder="City"/>
 					<input id="state" onChange={this.update} type="text" placeholder="State" />
+					<input id="large" onChange={this.update} type="text" placeholder="large" />
+					<input id="thumbnail" onChange={this.update} type="text" placeholder="thumbnail" />
 					<button type="submit"> Create User </button>
 				</form>
 				
